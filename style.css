@@ -1,0 +1,189 @@
+/*body {
+    padding: 0 10%;
+    margin: 0;
+    
+    }*/
+    
+    nav  {
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    background-color: #A9A9A9;
+    align-items: center;
+    
+    }
+    
+    nav ul {
+    display: flex;
+    
+    }
+    
+    nav .nom {
+    gap: 2px;
+    }
+    
+    nav .nom span {
+    font-size: 12px;
+    }
+    
+    
+    
+    .menu {
+    
+        display: flex;
+        list-style-type: none;
+        text-transform: uppercase;
+        width: 1%;
+        padding: 1% 0 0 0 !important;
+        border: 1px solid red;
+        background: #696969;
+        color:white;
+    
+    }
+    
+    nav ul li {
+    margin-left: 15px;
+    gap: 0px;
+    }
+    
+    
+    .contenu {
+        display: flex;
+        
+    }
+    
+    .contenu header {
+        margin-top: 5%;
+        padding: 10% 10%;
+        
+        
+
+    
+    }
+    
+    
+    .contenu header .img1 {
+        align-items: center;
+        height: 360px;
+        width: 960px;
+        
+        }
+    
+
+    .contenu header .pp1 {
+    
+    margin-top: 10%;
+    justify-content: center;/*Pourquoi ça marche pas */
+    
+    }
+    
+    .pp1 .img1 {
+    height: 180px;
+    width: 290px;
+    max-width: 100%;
+    border : 1px solid rgb(85, 84, 84)
+    }
+    
+    /*.even-columns {
+        display:grid;
+        grid-template-columns: repeat(auto,minmax(250px, 1 fr ))
+        grid : 2rem;
+    }*/
+    
+    
+
+    .even-columns {
+    /*    justify-content:space-around;
+        padding: auto;
+        columns: 3;
+        flex-direction: row;
+        border: 2px solid limegreen;
+      */  
+      display: flex;
+      gap: 2rem;
+    }
+    
+    .pp1 h4 {
+        
+    margin: top 5px;
+    font-size: 25px;
+    
+        
+    
+    }
+    
+    .pp1   small {
+        color: rgb(222, 147, 8);
+    
+    
+        
+    }
+    .Presentation  {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid red;
+        /*padding: 10px;*/
+    }
+
+    .Presentation .gauche {
+     margin-top: 20px;   
+     max-width: 55%;
+     border: 1px solid lightseagreen ;
+
+
+    }
+
+    .Presentation .gauche small {
+        
+        margin-top: 25px;
+        color: rgb(222, 147, 8);
+    }
+
+    .Presentation .droite {
+        width: 450px;
+        height: 250px;
+
+    }
+
+
+    
+    
+    footer {
+    
+        margin-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+        background-color: #000;
+        color: white;
+    }
+    
+    
+    footer h2 {
+        font-style:italic
+    }
+    
+    footer .colonne p {
+        font-size: 15px;
+        color: #ccc;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
